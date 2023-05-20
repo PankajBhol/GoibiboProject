@@ -76,7 +76,7 @@ public class TestBase {
             options.addArguments("--accept='text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'");
 
 
-            capabilities = DesiredCapabilities.chrome();
+            //capabilities = DesiredCapabilities.chrome();
             capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 
             try {
